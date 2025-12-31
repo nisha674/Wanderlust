@@ -63,7 +63,7 @@
 
   <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
     <% for(let list of listing){%>
-    <a href="http://localhost:8080/listings/<%=list._id%>" class="listing-link">
+    <a href="/listings/<%=list._id%>" class="listing-link">
       <div class="card listing-card mt-3" style="width: 20rem">
         <img
           src="<%=list.image.url %>"
